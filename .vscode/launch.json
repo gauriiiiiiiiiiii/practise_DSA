@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run C++ Internally",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${fileDir}\\${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDir}",
+      "environment": [],
+      "console": "integratedTerminal"
+    }
+  ]
+}
