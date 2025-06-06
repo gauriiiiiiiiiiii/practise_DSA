@@ -1,4 +1,7 @@
 /*
+Bubble Sort 
+Push the Max to Last by Adjacent Swaps 
+
 Loop through the array from i = n-1 to 1
 For each i, compare all adjacent elements from j = 0 to i-1
 If arr[j] > arr[j+1], swap them
@@ -47,3 +50,4 @@ Stability:
 ✅ Stable (equal elements maintain their relative order)
 */
 
+// Accessing an Index that is not present causes an runtime error

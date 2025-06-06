@@ -1,4 +1,7 @@
 /* 
+Selection Sort 
+Select the minimum & Swap it 
+
 Loop through the array from i = 0 to n-2
 For each i, assume arr[i] is the smallest, set minIndex = i
 Loop from j = i+1 to n-1 to find the true minimum element

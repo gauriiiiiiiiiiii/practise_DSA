@@ -1,4 +1,7 @@
 /*
+Insertion Sort
+Takes an Element and Places it in its Correct order
+
 Loop through the array from i = 0 to n-1
 For each i, set j = i
 While j > 0 and arr[j - 1] > arr[j],

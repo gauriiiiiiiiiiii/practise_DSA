@@ -1,4 +1,9 @@
 /*
+Merge Sort
+Divide & Merge
+*/
+
+/*
 ⚙️ merge(nums, left, mid, right)
 Step 1: Find sizes of two subarrays to be merged
         n1 = mid - left + 1, n2 = right - mid

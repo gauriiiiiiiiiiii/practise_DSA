@@ -1,3 +1,8 @@
+/*
+Quick Sort 
+Pick a Pivot and place it in its Sorted Position
+*/
+
 class Solution {
    public:
 
