@@ -3,7 +3,9 @@
     "iostream": "cpp",
     "bitset": "cpp",
     "chrono": "cpp",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "ostream": "cpp",
+    "unordered_map": "cpp"
   },
   "code-runner.runInTerminal": true,
   "code-runner.executorMap": {

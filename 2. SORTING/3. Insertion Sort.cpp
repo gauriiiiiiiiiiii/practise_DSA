@@ -1,5 +1,4 @@
-/*
-Insertion Sort
+/* Insertion Sort
 Takes an Element and Places it in its Correct order
 
 Loop through the array from i = 0 to n-1
@@ -27,23 +26,17 @@ class Solution {
 };
 
 /*
-
 Time Complexity
-| Case        | Complexity | Explanation                                                                     |
-| ----------- | ---------- | ------------------------------------------------------------------------------- |
 |   Best      | O(n)       | Array is already sorted; only one pass, no shifts needed                        |
 |   Average   | O(n²)      | Elements may need to be shifted multiple times to insert in correct place       |
 |   Worst     | O(n²)      | Array is reverse sorted; each insertion causes shifting of all previous elements|
 
-✅ Adaptive — runs faster on nearly sorted arrays
-
 Space Complexity
-| Type      | Complexity | Explanation                                                                     |
-| --------- | ---------- | --------------------------------------------------------------------------------|
 |   Space   | O(1)       | In-place sorting, uses constant extra space for shifting elements               |
 
-Stability: ✅ Stable (equal elements maintain their relative order)
-
+✅ Stability - Stable (equal elements maintain their relative order)
+✅ Adaptive - Runs faster on nearly sorted arrays 
+✅ In-place - No extra memory needed apart from loop variables
 */
 
 

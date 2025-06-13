@@ -1,5 +1,4 @@
-/*
-Bubble Sort 
+/* Bubble Sort 
 Push the Max to Last by Adjacent Swaps 
 
 Loop through the array from i = n-1 to 1
@@ -32,22 +31,17 @@ class Solution {
 
 /* 
 Time Complexity
-| Case        | Complexity | Explanation                                                                  |
-| ----------- | ---------- | -----------------------------------------------------------------------------|
 |   Best      | O(n)       | If the array is already sorted, only one pass is needed with no swaps        |
 |   Average   | O(n²)      | Nested loops compare and swap elements until the array is sorted             |
 |   Worst     | O(n²)      | Array is reverse sorted; every possible swap happens                         |
 
-✅ Adaptive — stops early if no swaps in a pass (array already sorted)
-✅ Can be faster than Selection Sort on nearly sorted arrays
-
 Space Complexity
-| Type      | Complexity | Explanation                                                                   |
-| --------- | ---------- | ----------------------------------------------------------------------------- |
 |   Space   | O(1)       | In-place algorithm with only a few extra variables for swapping and flags     |
 
-Stability:
-✅ Stable (equal elements maintain their relative order)
+✅ Adaptive - Stops early if no swaps in a pass (array already sorted)
+✅ Comparision - Can be faster than Selection Sort on nearly sorted arrays
+✅ Stability - Stable (equal elements maintain their relative order)
+✅ In-place - No extra memory needed beyond a few variables
 */
 
 // Accessing an Index that is not present causes an runtime error

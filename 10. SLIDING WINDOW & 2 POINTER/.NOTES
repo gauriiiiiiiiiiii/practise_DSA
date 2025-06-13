@@ -1,0 +1,19 @@
+SLIDING WINDOW TECHNIQUE 
+used for linear data structures (like arrays or strings) where you need to process a subrange (or “window”) to solve problems efficiently 
+in O(n) time instead of using nested loops (O(n²))
+
+TYPES OF SLIDING WINDOW
+
+1. Fixed-size Sliding Window
+Used when the window size is constant
+
+- Max/Min/Average of all subarrays of size k
+- Max sum of subarray of size k
+- First negative number in every window of size k
+
+2. Variable-size Sliding Window
+Used when the window size changes based on a condition 
+
+- Longest or shortest subarray that meets some constraint
+- Substrings with/without repeating characters
+- Anagram patterns, window sums, or unique characters

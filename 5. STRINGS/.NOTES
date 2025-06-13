@@ -1,0 +1,12 @@
+String Functions
+
+s.length() / s.size();           // Get length
+s[i];                            // Access character
+s.substr(pos, len);              // Substring
+s.find("abc");                   // Find substring
+s += "more";                     // Append
+s.compare("abc");                // 0 if equal
+s.erase(pos, len);               // Erase part
+reverse(s.begin(), s.end());     // Reverse
+sort(s.begin(), s.end());        // Sort string
+

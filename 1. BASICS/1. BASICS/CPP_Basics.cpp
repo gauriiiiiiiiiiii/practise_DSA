@@ -72,8 +72,7 @@ int main ()
         else if (age > 57) { cout << "Retirement Time"; }
     }
 
-    // Switch Case
-    
+    // Switch Case   
     
 
     return 0;
